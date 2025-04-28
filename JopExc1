@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package JopExc1;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Admin
+ */
+public class JopExc1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        double num = Double.parseDouble(JOptionPane.showInputDialog("Digite o nomero"));
+        
+        if(num>0) {
+            JOptionPane.showMessageDialog(null, "O numero e maior que zero");
+        if(num==0) {
+            JOptionPane.showMessageDialog(null, "O numero e zero");
+        if(num<0) {
+            JOptionPane.showMessageDialog(null, "O numero e menor que zero");
+                }
+            }
+        }
+    }
+}

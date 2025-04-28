@@ -1,0 +1,29 @@
+package JopExc1;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Admin
+ */
+public class JopExc1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+String idadeStr = JOptionPane.showInputDialog("Coloque a nota do");
+    int idade = Interger.parseInt(idadeStr);
+
+    if (idade>=7) {
+        JOptionPane.showMessageDialog("Aprovado") 
+    } else if (idade<=6,9 && idade>=5){
+        JOptionPane.showMessageDialog("Em recuperação")
+    } else if (idade<5){
+        JOptionPane.showMessageDialog("Reprovado")
+    }
+    
+    }
+}
